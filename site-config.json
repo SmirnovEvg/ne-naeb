@@ -68,7 +68,9 @@
     "accentColor": "#f59e0b"
   },
   "customCode": {
-    "head": "",
-    "body": ""
+    "head": "<meta name=\"custom-test\" content=\"head-works\">\n<script>console.log('✅ HEAD code loaded');</script>",
+    "body": "",
+    "bodyEnd": "<script>console.log('✅ BODY END code loaded');</script>",
+    "bodyStart": "<script>console.log('✅ BODY START code loaded');</script>"
   }
 }
